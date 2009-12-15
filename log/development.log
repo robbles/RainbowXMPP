@@ -1,0 +1,861 @@
+# Logfile created on Tue Nov 17 21:57:03 -0800 2009
+
+Processing ActionController::Base#index (for 127.0.0.1 at 2009-12-09 20:06:35) [GET]
+
+NameError (uninitialized constant ApplicationController):
+  app/controllers/colors_controller.rb:1
+
+Rendered rescues/_trace (34.9ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ActionController::Base#index (for 127.0.0.1 at 2009-12-09 20:06:54) [GET]
+
+NameError (uninitialized constant ApplicationController):
+  app/controllers/colors_controller.rb:1
+
+Rendered rescues/_trace (97.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ActionController::Base#index (for 127.0.0.1 at 2009-12-09 20:07:05) [GET]
+
+ActionController::RoutingError (No route matches "/color" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ActionController::Base#show (for 127.0.0.1 at 2009-12-09 20:07:27) [GET]
+  Parameters: {"id"=>"index"}
+
+NameError (uninitialized constant ApplicationController):
+  app/controllers/colors_controller.rb:1
+
+Rendered rescues/_trace (34.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ActionController::Base#index (for 127.0.0.1 at 2009-12-09 20:08:39) [GET]
+
+NameError (uninitialized constant ApplicationController):
+  app/controllers/colors_controller.rb:1
+
+Rendered rescues/_trace (113.4ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-09 20:10:10) [GET]
+Rendering colors/index
+Completed in 3475ms (View: 377, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-09 20:12:17) [POST]
+  Parameters: {"authenticity_token"=>"RW9wzh70Skq8VtfSIa14atM5p0gbJlpq7Cirgkaq8dA=", "color"=>"blue"}
+The DRb server could not be contacted
+Redirected to http://localhost:3000/colors
+Completed in 40ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-09 20:12:17) [GET]
+Rendering colors/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 14:30:22) [GET]
+Rendering colors/index
+Completed in 70ms (View: 68, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 14:30:25) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+The DRb server could not be contacted
+Redirected to http://localhost:3000/colors
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 14:30:25) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:01:55) [GET]
+Rendering colors/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:01:57) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+
+NameError (uninitialized constant ColorsController::RemoteTopfunkyIM):
+  app/controllers/colors_controller.rb:9:in `create'
+  haml (2.2.15) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (94.1ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:02:21) [GET]
+Rendering colors/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:02:22) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:02:22) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:05:02) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:05:02) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:09:35) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:09:35) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:09:56) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 16ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:09:56) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:10:14) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:10:14) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:10:33) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 15ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:10:33) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:11:11) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:11:11) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:11:13) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:11:13) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:11:14) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 13ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:11:14) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:11:16) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:11:16) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:11:41) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:11:41) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:11:42) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:11:42) [GET]
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:11:43) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:11:43) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:11:44) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 49ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:11:44) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:12:07) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 17ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:12:07) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:12:08) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:12:08) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:12:51) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:12:51) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:12:52) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 13ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:12:52) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:12:53) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:12:53) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:13:25) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 17ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:13:25) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:13:25) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:13:25) [GET]
+Rendering colors/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:13:26) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:13:26) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:13:31) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 75ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:13:31) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:13:38) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:13:38) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:14:30) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 12ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:14:30) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:14:40) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:14:40) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 15:14:42) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 15:14:42) [GET]
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:06:52) [GET]
+Rendering colors/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:06:54) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+
+NoMethodError (undefined method `parent=' for :red:Symbol):
+  (druby://localhost:7777) /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rexml/parent.rb:19:in `<<'
+  (druby://localhost:7777) /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rexml/element.rb:530:in `add_text'
+  (druby://localhost:7777) /Library/Ruby/Gems/1.8/gems/xmpp4r-0.5/lib/xmpp4r/message.rb:31:in `initialize'
+  (druby://localhost:7777) basic_drb.rb:178:in `new'
+  (druby://localhost:7777) basic_drb.rb:178:in `send_message'
+  app/controllers/colors_controller.rb:9:in `create'
+  haml (2.2.15) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (96.9ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:07:32) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:07:32) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:07:52) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:07:52) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:09:14) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:09:15) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:09:15) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:09:22) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:09:22) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:09:46) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:09:46) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:09:47) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:09:47) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:10:11) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:10:11) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:10:12) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:10:12) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:14:14) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:14:15) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:14:15) [GET]
+Rendering colors/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:16:51) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:16:53) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:16:53) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:16:57) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:16:57) [GET]
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:16:59) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:16:59) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:16:59) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:17:00) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:17:13) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:17:15) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:17:15) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:17:18) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:17:18) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:19:09) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:19:09) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:19:12) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:19:12) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-11 16:19:14) [POST]
+  Parameters: {"authenticity_token"=>"vxZLdHM86FLvdaPOViGPk70Yg9c4T0+C8hOvB/AaMVg=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-11 16:19:14) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-14 22:06:48) [GET]
+
+ActionController::RoutingError (No route matches "/devices" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-14 22:06:49) [GET]
+
+ActionController::RoutingError (No route matches "/tapps" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:06:53) [GET]
+Rendering colors/index
+Completed in 199ms (View: 197, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:06:55) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:06:55) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:07:50) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 88ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:07:50) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:08:15) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:08:15) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:09:58) [GET]
+Rendering colors/index
+Completed in 74ms (View: 72, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:10:00) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"red"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=red]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:10:00) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:24:25) [GET]
+Rendering colors/index
+Completed in 76ms (View: 74, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:24:26) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"blue"}
+
+NameError (undefined local variable or method `colorElement' for #<TurkIM:0x101736278>):
+  (druby://localhost:7777) basic_drb.rb:205:in `send_message'
+  app/controllers/colors_controller.rb:10:in `create'
+  haml (2.2.15) lib/sass/plugin/rails.rb:19:in `process'
+
+Rendered rescues/_trace (100.8ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:25:02) [GET]
+Rendering colors/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:25:04) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"blue"}
+Redirected to http://localhost:3000/colors
+Completed in 7ms (DB: 0) | 302 Found [http://localhost/colors?color=blue]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:25:04) [GET]
+Rendering colors/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:37:09) [GET]
+Rendering colors/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:38:32) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"#63a7e7"}
+Redirected to http://localhost:3000/colors
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/colors?color=%2363a7e7]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:38:32) [GET]
+Rendering colors/index
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:38:36) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"#b81212"}
+Redirected to http://localhost:3000/colors
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/colors?color=%23b81212]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:38:36) [GET]
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:38:37) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"#76f442"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=%2376f442]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:38:37) [GET]
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:38:38) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"#e7df28"}
+Redirected to http://localhost:3000/colors
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/colors?color=%23e7df28]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:38:38) [GET]
+Rendering colors/index
+Completed in 22ms (View: 20, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:38:39) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"#e7df28"}
+Redirected to http://localhost:3000/colors
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/colors?color=%23e7df28]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:38:39) [GET]
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:38:39) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"#ef7d92"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=%23ef7d92]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:38:39) [GET]
+Rendering colors/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:38:40) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"#63a7e7"}
+Redirected to http://localhost:3000/colors
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/colors?color=%2363a7e7]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:38:40) [GET]
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:38:41) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"#76f442"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=%2376f442]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:38:41) [GET]
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:38:42) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"#ef7d92"}
+Redirected to http://localhost:3000/colors
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/colors?color=%23ef7d92]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:38:42) [GET]
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]
+
+
+Processing ColorsController#create (for 127.0.0.1 at 2009-12-14 22:38:43) [POST]
+  Parameters: {"authenticity_token"=>"8hMhCkVcluJ/HVaHymnWc22BJ0iAga50nqNI7ll3xdQ=", "color"=>"#e7df28"}
+Redirected to http://localhost:3000/colors
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/colors?color=%23e7df28]
+
+
+Processing ColorsController#index (for 127.0.0.1 at 2009-12-14 22:38:43) [GET]
+Rendering colors/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/colors]

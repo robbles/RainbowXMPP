@@ -1,0 +1,8 @@
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- log_worker (LoadError)
+	from /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+	from /Users/Loki/.gem/ruby/1.8/gems/packet-0.1.15/bin/packet_worker_runner:35:in `load_worker'
+	from /Users/Loki/.gem/ruby/1.8/gems/packet-0.1.15/bin/packet_worker_runner:26:in `initialize'
+	from /Users/Loki/.gem/ruby/1.8/gems/packet-0.1.15/bin/packet_worker_runner:47:in `new'
+	from /Users/Loki/.gem/ruby/1.8/gems/packet-0.1.15/bin/packet_worker_runner:47
+	from /usr/bin/packet_worker_runner:19:in `load'
+	from /usr/bin/packet_worker_runner:19

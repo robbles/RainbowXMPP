@@ -1,0 +1,11 @@
+---
+from:
+  jid: turk@jannuss-macbook-pro.local/ruby
+  password: password
+to:
+  jid: slatewest@jannuss-macbook-pro.local
+vcard:
+  nickname: XMPP Bot
+  fn: XMPP Bot
+  url: http://turkinnovations.com
+  photo_path: avatar-red.png

@@ -1,0 +1,18 @@
+== RainbowXMPP
+
+This is a simple Rails app that lets you send color information to Turk Devices using the new Turk protocol with XMPP.
+
+== Getting Started
+
+1. First make sure you have all the right gems. This one requires XMPP4R and Haml. sudo gem install git://github.com/ln/xmpp4r.git
+2. Next, make sure you have a Jabber account.
+3. Change directory into the application to 'vendor/drb_scripts'. Change the 'from' in the config.yml file to match your Jabber account.
+4. Next run the XMPP script using 'ruby basic_drb.rb'
+5. Now its time to run the Rails App. First go the 'app/controllers/colors_controller'. Edit line 10 to match the destination of your device's account.
+6. Go to the root directory of the application and start the server with "ruby script/server"
+7. Go http://localhost:3000 to view the app
+
+
+== Extra
+
+This is a Turk Innovations doodle for Turk developers. Use at your own peril.
