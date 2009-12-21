@@ -7,7 +7,7 @@ class ColorsController < ApplicationController
   def create
     begin
       #TurkIM.send_message("slatewest@jannuss-macbook-pro.local", "<color> BLUE </color>")
-      TurkIM.send_message("slatewest@jannuss-macbook-pro.local", params[:color])
+      TurkIM.send_message("platform@macpro.local", params[:color])
       #TurkIM.change_color(params[:color].to_sym)
     rescue DRb::DRbConnError => e
       Rails.logger.info "The DRb server could not be contacted"

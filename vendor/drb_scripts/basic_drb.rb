@@ -181,23 +181,16 @@ class TurkIM
     h = REXML::Element::new("update")
     h.add_namespace('http://turkinnovations.com/protocol')
     h.add_attribute('type', 'app')
-    h.add_attribute('from', 'twitlamp')
-    
-    shiftElement = REXML::Element::new("shift")
-    shiftText = REXML::Text.new("false")
-    shiftElement.add(shiftText)
-    
-    colorModeElement = REXML::Element::new("colormode")
-    colorModeText = REXML::Text.new("hex")
-    colorModeElement.add(colorModeText)
+    # The 'from' field needs to have the app's id, not name
+    h.add_attribute('from', '11')
+    # The 'to' field needs to have the id of the driver/worker to deliver the message to
+    h.add_attribute('to', '6')
     
     commandElement = REXML::Element::new("command")
     commandElement.add_attribute("type", "color")
     commandText = REXML::Text.new("#{message}")
     commandElement.add(commandText)
     
-    h.add(shiftElement)
-    h.add(colorModeElement)
     h.add(commandElement)
 
     # Add the turk update XML element to the message
